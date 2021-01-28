@@ -1,0 +1,47 @@
+body{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background-image: url('img.jpg');
+}
+.left{display: inline;
+    position: absolute;
+    left: 34px;
+    top: 22px;
+    border: 2px solid red;
+
+}
+.left img{
+    width: 136px;
+    filter: invert(100%);
+}
+.left div{
+    text-align: center;
+}
+.mid{display: block;
+    width: 33%;
+    margin: 22px auto;
+    border: 2px solid green;
+}
+.right{position: absolute;
+    display: inline;
+    right: 34px;
+    top: 22px;
+    border: 2px solid yellow;
+}
+.navbar{
+    display: inline-block; 
+}
+.navbar li{
+    display: inline-block;
+    font-size: 25px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+.navbar li a:hover{
+    text-decoration: underline;
+    color: grey;
+}
